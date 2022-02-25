@@ -5,6 +5,7 @@
         margin-bottom: 16px;
     }
     .DayPicker-Caption{
+        border-radius: 6px 6px 0 0;
         background: #554224;
         padding:8px 16px;
         margin-bottom: 0;
@@ -50,6 +51,7 @@
         color: white;
         padding: 6px 16px;
         border: 1px solid white;
+        border-radius: 6px;
         display: flex;
         justify-content: center;
         align-items: center;
