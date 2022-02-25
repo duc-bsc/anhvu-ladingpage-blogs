@@ -1,0 +1,31 @@
+.content{
+    margin-bottom: 30px;
+    &-box{
+        margin: auto;
+        padding: 30px;
+        background: #e2d8cc;
+        max-width: 500px;
+        .col{
+            width: 50%;
+        }
+        &-title{
+            font-size: 24px;
+            margin-bottom: 16px;
+        }
+        img{
+            border-radius: 8px;
+        }
+        p{
+            margin-bottom: 16px;
+        }
+        .author{
+            span{
+                display: block;
+            }
+            span.author-title{
+                font-weight: bold;
+              
+            }
+        }
+    }
+}
