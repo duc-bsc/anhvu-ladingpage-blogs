@@ -5,7 +5,7 @@ const Blogs = () => {
             <div className="row">
                 <div className="col">
                     <div className="blogs-box">
-                        <img src="./blog-img.jpg" />
+                        <img src="./blog-img.jpg" className="border-round" />
                         <div className="blogs-box-content">
                             <h3> Come see what Templeton has to offer!</h3>
                             <span>
@@ -14,7 +14,7 @@ const Blogs = () => {
                                 youth and adults that are available to local
                                 residents.
                             </span>
-                            <button>
+                            <button className="button">
                                 {' '}
                                 Parks & recreation <FiArrowRight />
                             </button>
@@ -23,7 +23,7 @@ const Blogs = () => {
                 </div>
                 <div className="col">
                     <div className="blogs-box">
-                        <img src="./blog-img.jpg" />
+                        <img src="./blog-img.jpg" className="border-round" />
                         <div className="blogs-box-content">
                             <h3> Come see what Templeton has to offer!</h3>
                             <span>
@@ -32,7 +32,7 @@ const Blogs = () => {
                                 youth and adults that are available to local
                                 residents.
                             </span>
-                            <button>
+                            <button className="button">
                                 {' '}
                                 Parks & recreation <FiArrowRight />
                             </button>
@@ -41,7 +41,7 @@ const Blogs = () => {
                 </div>
                 <div className="col">
                     <div className="blogs-box">
-                        <img src="./blog-img.jpg" />
+                        <img src="./blog-img.jpg" className="border-round" />
                         <div className="blogs-box-content">
                             <h3> Come see what Templeton has to offer!</h3>
                             <span>
@@ -50,7 +50,7 @@ const Blogs = () => {
                                 youth and adults that are available to local
                                 residents.
                             </span>
-                            <button>
+                            <button className="button">
                                 {' '}
                                 Parks & recreation <FiArrowRight />
                             </button>

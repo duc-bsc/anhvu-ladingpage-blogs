@@ -7,13 +7,13 @@ import Menu from '../layout/menu';
 import { useState } from 'react';
 export default function Home() {
     const [isMenu, setIsMenu] = useState(false);
-    console.log('insMenu',isMenu)
-    const handleOpenMenu =()=>{
-        setIsMenu(true)
-    }
-    const handleCloseMenu =()=>{
-        setIsMenu(false)
-    }
+    console.log('insMenu', isMenu);
+    const handleOpenMenu = () => {
+        setIsMenu(true);
+    };
+    const handleCloseMenu = () => {
+        setIsMenu(false);
+    };
     return (
         <div id="main">
             <Header handleOpenMenu={handleOpenMenu} />
@@ -26,8 +26,11 @@ export default function Home() {
                     <Sidebar />
                 </div>
             </div>
-            <Footer />
-            <Menu isMenu={isMenu} handleCloseMenu={handleCloseMenu}/>
+            <div className="bg-brown">
+                <img class="d-block" src="/images/Homepage-TopShape.svg"></img>
+                <Footer />
+            </div>
+            <Menu isMenu={isMenu} handleCloseMenu={handleCloseMenu} />
         </div>
     );
 }

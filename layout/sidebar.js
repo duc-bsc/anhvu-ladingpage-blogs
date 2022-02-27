@@ -17,7 +17,7 @@ const Sidebar = () => {
                         Additional details for event go here. Additional details
                         for event go here. Additional details for event go here.
                     </p>
-                    <p className="sidebar-blogs-box-time">7:00pm -6:00am</p>
+                    <p className="sidebar-blogs-box-time">7:00pm - 6:00am</p>
                 </div>
                 <div className="sidebar-blogs-box">
                     <h3 className="sidebar-blogs-box-title">
@@ -28,7 +28,7 @@ const Sidebar = () => {
                         Additional details for event go here. Additional details
                         for event go here. Additional details for event go here.
                     </p>
-                    <p className="sidebar-blogs-box-time">7:00pm -6:00am</p>
+                    <p className="sidebar-blogs-box-time">7:00pm - 6:00am</p>
                 </div>
                 <div className="sidebar-blogs-box">
                     <h3 className="sidebar-blogs-box-title">
@@ -39,10 +39,10 @@ const Sidebar = () => {
                         Additional details for event go here. Additional details
                         for event go here. Additional details for event go here.
                     </p>
-                    <p className="sidebar-blogs-box-time">7:00pm -6:00am</p>
+                    <p className="sidebar-blogs-box-time">7:00pm - 6:00am</p>
                 </div>
 
-                <button>
+                <button className="button">
                     See more event
                     <FiArrowRight />
                 </button>

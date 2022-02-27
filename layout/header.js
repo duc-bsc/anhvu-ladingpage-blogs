@@ -12,8 +12,15 @@ const Header = (props) => {
                             <AiOutlineMenu />
                         </button>
                     </div>
+                    <div className="text-center">
+                        <img
+                            style={{ maxWidth: 500 }}
+                            className="m-auto d-block"
+                            src="/images/Homepage-Welcome.svg"
+                        />
+                    </div>
                     <div className="logo">
-                        <img src="/header-logo.jpg" />
+                        <img src="/images/Homepage-MainLogo.svg" />
                     </div>
                 </div>
             </div>

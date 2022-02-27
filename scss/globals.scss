@@ -5,3 +5,62 @@
 @import './layout/footer.scss';
 @import './layout/content.scss';
 @import './layout/sidebar.scss';
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.bg-brown {
+    background-color: #604822;
+}
+.text-white {
+    color: #fff;
+}
+
+.button {
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-top: 20px;
+    background: #e58a3b;
+    color: white;
+    padding: 6px 16px;
+    border: 1px solid #e58a3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-style: italic;
+    svg {
+        fill: white;
+        stroke: white;
+        margin-left: 8px;
+    }
+    transition: all 0.5s ease;
+    &:hover {
+        color: #e58a3b;
+        background: white;
+        border-color: #e58a3b;
+        svg {
+            fill: #e58a3b;
+            stroke: #e58a3b;
+            margin-left: 8px;
+        }
+    }
+}
+
+.border-round {
+    border-radius: 6px;
+}
+
+.m-auto {
+    margin: auto;
+}
