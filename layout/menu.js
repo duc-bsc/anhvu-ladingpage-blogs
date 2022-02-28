@@ -4,10 +4,10 @@ const Menu = (props) => {
     return (
         <div id="menu" className={isMenu ? 'menu-active' : ''}>
             <div className="menu-top">
-                <img className="menu-top-logo" src="./menu-logo.jpg" />
-                <div className="close" onClick={handleCloseMenu}>
-                    <AiOutlineClose />
-                </div>
+                {/* <img className="menu-top-logo" src="./menu-logo.jpg" /> */}
+                <button className="close" onClick={handleCloseMenu}>
+                    X
+                </button>
             </div>
             <ul>
                 <li>

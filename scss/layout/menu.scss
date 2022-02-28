@@ -1,56 +1,64 @@
-#menu{
+#menu {
     position: fixed;
-    top:0;
-    right:-100%;
-    bottom:0;
-    width:463px;
-    max-width:100%;
-    background:#f3eee6;
-    padding: 63px;
+    top: 0;
+    right: -100%;
+    bottom: 0;
+    width: 463px;
+    max-width: 100%;
+    background: #f3eee6;
+    padding: 20px 20px 0 63px;
     z-index: 30;
     transition: all 0.6s ease;
-    .menu-top{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    .menu-top {
+        // display: flex;
+        // justify-content: space-between;
+        // align-items: center;
+        text-align: right;
         margin-bottom: 20px;
-        &-logo{
-
+        &-logo {
         }
-        .close{
-            svg{
-                height:30px;
-                width:30px;
-            }
-
+        .close {
+            font-weight: bold;
+            font-size: 25px;
+            text-align: center;
+            width: 33px;
+            // svg {
+            //     height: 30px;
+            //     width: 30px;
+            // }
         }
     }
-    ul{
-
-        li{
-            a{
+    ul {
+        li {
+            a {
+                text-transform: uppercase;
                 display: block;
                 color: #534225;
                 font-size: 18px;
                 font-weight: bold;
-                padding:8px 8px;
-                &:hover{
-                   opacity: 0.8;
-                   ul.sub-menu{
-                          display: block;
-                   }
+                padding: 8px 0px;
+                &:hover {
+                    opacity: 0.8;
+                    ul.sub-menu {
+                        display: block;
+                    }
                 }
             }
         }
     }
-    ul.sub-menu{
+    ul.sub-menu {
         display: none;
-        a{
+        a {
+            text-transform: uppercase;
             font-weight: 400;
             font-size: 16px;
+
+            &:first-child {
+                padding-top: 16px;
+            }
         }
     }
 }
-.menu-active{
+.menu-active {
     right: 0 !important;
 }

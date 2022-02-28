@@ -1,9 +1,29 @@
 #header {
     width: 100%;
+    .hero-image {
+        position: fixed;
+        z-index: -1;
+        @media screen and (max-width: 1600px) {
+            & {
+                & > * {
+                    min-height: 700px;
+                    position: absolute;
+                }
+
+                & img {
+                    height: 100%;
+                    object-fit: cover;
+                    width: 100%;
+                }
+            }
+        }
+    }
     .header-main {
         width: 100%;
-        background-image: url('../../public/header-top.jpg');
+        // background-image: url('../../public/header-top.jpg');
+        background: linear-gradient(0, transparent 51%, #00c4ff);
         padding: 20px 20px 0 20px;
+
         button {
             background: none;
         }

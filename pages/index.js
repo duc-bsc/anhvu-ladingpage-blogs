@@ -17,13 +17,15 @@ export default function Home() {
     return (
         <div id="main">
             <Header handleOpenMenu={handleOpenMenu} />
-            <Blogs />
-            <div class="row container">
-                <div class="col-content">
-                    <Content />
-                </div>
-                <div class="col-sidebar">
-                    <Sidebar />
+            <div className="bg-white">
+                <Blogs />
+                <div class="row container">
+                    <div class="col-content">
+                        <Content />
+                    </div>
+                    <div class="col-sidebar">
+                        <Sidebar />
+                    </div>
                 </div>
             </div>
             <div className="bg-brown">
